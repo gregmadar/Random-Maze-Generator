@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+}
+
+.map {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cell {
+    padding:0px;
+    margin:-1px ;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.start {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+    align-content: center;
+    margin: 2vw;
+}
+
+button {
+    width: 14vw;
+    height: 8vh;
+    color: black;
+    font-size: 2vw;
+    cursor: pointer;
+    z-index: 30;
+}
+
+.grouping {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+    align-content: center;
+    margin: 2vw;
+}
