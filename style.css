@@ -6,7 +6,7 @@ body {
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(16, 25px);
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -18,8 +18,8 @@ body {
     padding:0px;
     margin:-1px ;
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 25px;
+    height: 25px;
     justify-content: center;
     justify-items: center;
     align-content: center;
